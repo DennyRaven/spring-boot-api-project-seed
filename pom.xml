@@ -102,6 +102,16 @@
             <version>1.3.5</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.ctg.mq</groupId>
+            <artifactId>ctg-mq-common</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ctg.mq</groupId>
+            <artifactId>ctg-mq-client</artifactId>
+            <version>2.3.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -128,6 +138,11 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
+        </repository>
+        <repository>
+            <id>releases</id>
+            <name>Internal Releases</name>
+            <url>http://132.122.232.248:8081/nexus/content/repositories/releases</url>
         </repository>
     </repositories>
 
